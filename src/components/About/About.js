@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerImg from '../../assets/menu/menu_banner.png';
+import bannerImg from '../../assets/menu/California-style.png';
 import Home_left from '../Home/Home_left';
 import Home_right from '../Home/Home_right';
 const About = () => {
