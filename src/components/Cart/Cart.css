@@ -1,0 +1,135 @@
+.cart-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+.main-cart{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-bx{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    /* border: 1px solid black; */
+
+}
+
+.amount-bx{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: 10px 10px;
+}
+
+.cart-card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    height: 100px;
+    margin: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 0px;
+    background-color: aliceblue;
+}
+
+.cimg{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin: 5px 10px;
+
+}
+.cimg img{
+    width: 100%;
+    height: 100%;
+}
+.cAmount{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+/* checkout page */
+.subChead{
+    text-align: center;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 6px;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main-checkout{
+    width: 100%;
+    /* margin: 5px 10px; */
+    /* background-color: pink; */
+}
+.main-checkout span{
+    margin-top: 10px;
+}
+.subtotal{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.chead{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+
+.check-btn{
+    width: 100%;
+}
+.check-btn button{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    color: white;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:600px) {
+    .main-cart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-bx{
+        width: 100%;
+    }
+    .amount-bx{
+        width: 80%;
+    }
+    .cart-card{
+        width: 80%;
+    }
+}
