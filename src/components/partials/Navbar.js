@@ -34,6 +34,9 @@ const Navbar = () => {
                 <li className='navlink' title='Cart'>
                     <Link style={{ textDecoration: "none", fontSize: "20px", color: 'red' }} to={'/cart'}> {<BsCart4 />} </Link>
                 </li>
+                <li className='navlink'>
+                    <Link style={{ textDecoration: "none", color: 'orangered' }} to={'/login'}>Login</Link>
+                </li>
             </ul>
 
             
@@ -58,6 +61,9 @@ const Navbar = () => {
                     </li>
                     <li className='burgerLink'>
                         <Link style={{ textDecoration: "none", color: 'white' }} to={'/contact'}> contact </Link>
+                    </li>
+                    <li className='navlink'>
+                    <Link style={{ textDecoration: "none", color: 'gray' }} to={'/login'}>Login</Link>
                     </li>
                     <li className='burgerLink' title='Cart'>
                         <Link style={{ textDecoration: "none", fontSize: "20px", color: 'orangered' }} to={'/cart'}> {<BsCart4 />} </Link>

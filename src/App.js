@@ -6,6 +6,8 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/partials/Footer';
 import Shop from './components/Shop/Shop';
 import Cart from './components/Cart/Cart';
+import Login from './components/Register/Login';
+import Register from './components/Register/Register';
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/menu' element={<Shop/>}/>
         <Route path='/cart' element={<Cart/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
